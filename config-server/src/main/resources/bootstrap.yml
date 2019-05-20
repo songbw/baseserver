@@ -1,0 +1,23 @@
+server:
+  port: 9999
+user:
+  home: C:/work/project
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+         git:
+           uri: https://gitee.com/shenzhen_fengchao_information/config-repo
+           username:
+           password:
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+  client:
+    registry-fetch-interval-seconds: 5
+    serviceUrl:
+      defaultZone: http://peer1:9000/eureka/,http://peer2:9000/eureka/,http://peer3:9000/eureka/
