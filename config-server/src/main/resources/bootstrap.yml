@@ -10,8 +10,8 @@ spring:
       server:
          git:
            uri: https://gitee.com/shenzhen_fengchao_information/config-repo
-           username:
-           password:
+           username: sbw227@163.com
+           password: 0310-6739070
 
 eureka:
   instance:

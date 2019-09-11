@@ -1,1 +1,2 @@
 scp -P2257 target\eureka-server1-0.0.1-SNAPSHOT.jar smartadmin@119.3.108.152:/tmp
+scp eureka-server1\target\eureka-server1-0.0.1-SNAPSHOT.jar smartadmin@192.168.200.85:/tmp
